@@ -1,0 +1,27 @@
+{
+  "name": "nonce-express",
+  "version": "1.0.0",
+  "description": "A simple low-code package to generate and expose nonces in express apps.",
+  "main": "nonce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBrenny/nonce-express.git"
+  },
+  "keywords": [
+    "nonce",
+    "express",
+    "expressjs",
+    "csp",
+    "security",
+    "crypto"
+  ],
+  "author": "TheBrenny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBrenny/nonce-express/issues"
+  },
+  "homepage": "https://github.com/TheBrenny/nonce-express#readme"
+}
