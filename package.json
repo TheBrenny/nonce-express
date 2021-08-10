@@ -1,6 +1,6 @@
 {
   "name": "nonce-express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple low-code package to generate and expose nonces in express apps.",
   "main": "nonce.js",
   "scripts": {
