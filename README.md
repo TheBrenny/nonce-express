@@ -1,4 +1,4 @@
-# `nonce-express`
+# All aboard the `nonce-express`!
 > *Choo choo/`bzfS2qzo/Q==`!*
 
 `nonce-express` is a simple low-code express middleware to help generate nonces. It uses the built-in `crypto` module to generate ["cryptographically strong pseudorandom data"](https://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback) to be exposed at `res.locals.nonce`.

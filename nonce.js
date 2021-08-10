@@ -17,7 +17,7 @@ function genNonce(size) {
 }
 
 function changeConfig(newConfig) {
-    if (newConfig.size < 16) console.warn(`Nonce size _SHOULD_ be larger than 16 bytes. I hope you know what you're doing using ${config.size} bytes instead!`);
+    if (newConfig.size !== undefined && newConfig.size < 16) console.warn(`Nonce size _SHOULD_ be larger than 16 bytes. I hope you know what you're doing using ${config.size} bytes instead!`);
     config = Object.assign(config, newConfig);
 }
 
